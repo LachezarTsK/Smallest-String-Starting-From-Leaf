@@ -16,7 +16,7 @@ class Solution {
     
 public:
     
-    inline const static string ASCII_GREATER_THAN_SMALL_CASE_Z {"~"};
+    inline static const string ASCII_GREATER_THAN_SMALL_CASE_Z {"~"};
 
     string smallestFromLeaf(TreeNode* root) {
         return findPath("", root);
